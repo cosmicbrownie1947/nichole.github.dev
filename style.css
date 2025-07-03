@@ -1,57 +1,45 @@
 body {
-  background: linear-gradient(to right, #00FF00, #000000, #00aa00);
-  color: #00FF00;
-  margin: 40px;
+  background: linear-gradient(to right, #fce4ec, #e1bee7); /* Light pink to light purple */
+  color: #6a1b9a; /* Deep purple text */
   font-family: 'Georgia', 'Times New Roman', serif;
-  line-height: 1.6;
-  padding: 20px;
-  border: 5px double #00FF00;
-  border-radius: 12px;
-  box-shadow: 0 0 15px #00ff88;
+  padding: 30px;
+  line-height: 1.8;
+  border-radius: 10px;
 }
 
 h1 {
-  color: #00eeff;
-  text-shadow: 0 0 5px aqua, 0 0 10px #00ccff;
+  color: #ad1457; /* Rose pink */
+  text-shadow: 0 0 6px #f48fb1;
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 h2 {
-  color: #000fff;
-  text-shadow: 0 0 4px blue, 0 0 6px #4444ff;
-  border-bottom: 2px solid #00ccff;
+  color: #8e24aa; /* Soft purple */
+  text-shadow: 0 0 4px #e1bee7;
+  font-size: 1.7rem;
+  margin-top: 35px;
+  border-bottom: 2px dashed #ce93d8;
   padding-bottom: 5px;
-  margin-top: 40px;
-  font-size: 1.8rem;
-}
-
-h3 {
-  color: #ffbbbb;
-  text-shadow: 0 0 3px blue;
-  font-size: 1.5rem;
 }
 
 p {
-  color: #00bbbb;
-  text-shadow: 0 0 2px purple;
-  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.5);
+  color: #6a1b9a;
+  padding: 12px 18px;
+  border-radius: 10px;
   margin: 10px 0;
   text-align: justify;
+  text-shadow: 0 0 1px #ce93d8;
+  font-size: 1.1rem;
 }
 
 a:visited {
-  color: aqua;
-  text-decoration: underline;
+  color: #ab47bc;
 }
 
 a:hover {
-  color: #00ffcc;
-  text-shadow: 0 0 3px white;
-}
-
-*:focus {
-  outline: 2px solid #00ffff;
-  box-shadow: 0 0 5px #00ffff;
+  color: #d81b60;
+  text-shadow: 0 0 3px #ff80ab;
 }
